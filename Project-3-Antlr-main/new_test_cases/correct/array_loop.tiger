@@ -1,0 +1,14 @@
+main let
+    var a: array[5] of int := 0;
+    var i: int;
+    function addone(x: int): int begin
+        return x + 1;
+    end
+in begin
+    i := 0;
+    while (i < 5) do
+        a[i] := addone(i);
+        i := i + 1;
+    enddo;
+    printi(a[4]);
+end

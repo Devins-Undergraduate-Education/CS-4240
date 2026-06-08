@@ -1,0 +1,8 @@
+main let
+    var r: int;
+in begin
+    r := 1 - 2 - 3 - 4;
+    r := 10 / 2 / 5;
+    r := 1 | 0 & 1 = 1;
+    printi(r);
+end

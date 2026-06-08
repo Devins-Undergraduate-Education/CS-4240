@@ -1,0 +1,8 @@
+# Compiled class files
+*.class
+
+# Test output files
+*.out
+
+# Optimized IR outputs
+*_opt.ir

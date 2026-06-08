@@ -1,0 +1,14 @@
+#start_function
+void main():
+int-list: i, sum, n, limit
+float-list:
+    assign, sum, 0
+    assign, n, 7
+    assign, limit, 2000
+    assign, i, 0
+loop:
+    add, sum, sum, n
+    add, i, i, 1
+    brlt, loop, i, limit
+    call, puti, sum
+#end_function

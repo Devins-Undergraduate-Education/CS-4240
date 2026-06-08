@@ -1,0 +1,9 @@
+main let
+    var i: int;
+in begin
+    i := 3;
+    while (i > 0) do
+        printi(i);
+        i := i - 1;
+    /* missing enddo */
+end

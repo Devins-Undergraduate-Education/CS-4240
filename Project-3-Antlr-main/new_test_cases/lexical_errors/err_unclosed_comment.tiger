@@ -1,0 +1,6 @@
+main let
+    var x: int;
+in begin
+    /* missing end comment
+    x := 3;
+end

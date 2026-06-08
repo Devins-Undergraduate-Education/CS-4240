@@ -1,0 +1,13 @@
+main let
+    var idx: int := 0;
+    var sum: int := 0;
+    function noop(x: int) begin
+        return x;
+    end
+in begin
+    for idx := 0 to 3 do
+        noop(idx);
+        sum := sum + idx;
+    enddo;
+    printi(sum);
+end
